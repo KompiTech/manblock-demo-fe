@@ -1,0 +1,6 @@
+version: '3'
+services:
+  manblock-demo-fe:
+    build: .
+    ports:
+      - "8081:80"
